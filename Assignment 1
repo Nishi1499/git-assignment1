@@ -1,0 +1,38 @@
+
+HP@LAPTOP-Nishi MINGW64 ~/Desktop/First Git Repo (master)
+$ git --version                                                                                                         git version 2.25.1.windows.1
+
+HP@LAPTOP-Nishi MINGW64 ~/Desktop/First Git Repo (master)
+$ git status                                                                                                                                                            On branch master
+nothing to commit, working tree clean
+
+HP@LAPTOP-Nishi MINGW64 ~/Desktop/First Git Repo (master)
+$ git add .
+
+HP@LAPTOP-Nishi MINGW64 ~/Desktop/First Git Repo (master)
+$ git commit -m "Adding files"                                                                                                                                          On branch master
+nothing to commit, working tree clean
+
+HP@LAPTOP-Nishi MINGW64 ~/Desktop/First Git Repo (master)
+$ git add .
+
+HP@LAPTOP-Nishi MINGW64 ~/Desktop/First Git Repo (master)
+$ git commit -m "Adding myText file"
+[master 34c15c0] Adding myText file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 myText.txt
+
+HP@LAPTOP-Nishi MINGW64 ~/Desktop/First Git Repo (master)
+$ git log
+commit 34c15c044323227f1ce326d87616bfdd3bbea282 (HEAD -> master)
+Author: Nishi Karve <karvenishi.51@gmail.com>
+Date:   Sat Feb 29 15:17:51 2020 +0530
+
+    Adding myText file
+
+commit c9d29ef672b0599eb82d09dfe0cd33e57ac89be6
+Author: Nishi Karve <karvenishi.51@gmail.com>
+Date:   Thu Feb 27 23:25:19 2020 +0530
+
+    Version 2
+                                                                                                                                                                
